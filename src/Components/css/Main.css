@@ -1,0 +1,124 @@
+.nav {
+  background: #121212;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin-left: 2.5rem;
+}
+
+.nav h3 {
+  margin: 0;
+  margin-left: 1rem;
+}
+
+.userinfo {
+  width: 100vw;
+  height: 320px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background: linear-gradient(180deg, rgba(18, 18, 18, 0) 42.81%, #121212);
+  margin-bottom: 5rem;
+}
+
+.user-banner {
+  top: 60px;
+  width: 100vw;
+  height: 320px;
+  position: absolute;
+  z-index: -1;
+}
+
+.user-content {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 0;
+}
+
+.user-profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+}
+
+#username {
+  margin: 0.5rem 0;
+}
+
+.user-carrer {
+  margin: 0 0.5rem;
+}
+
+.user-label {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding: 4px 8px;
+  margin: 0 2px;
+}
+
+.user-label span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5rem 0;
+}
+
+.contents-card {
+  width: 570px;
+  height: 132px;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  margin: 1rem 0;
+}
+
+.contents-card:hover {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+#card-img {
+  width: 254px;
+  height: 132px;
+  left: calc(50% - 254px/2 - 158px);
+}
+
+.contents-card-right {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 316px;
+}
+
+.card-user {
+  display: flex;
+  align-items: center;
+}
+
+#card-profile-img {
+  width: 16px;
+  height: 16px;
+  border-radius: 200px;
+}
+
+.card-username {
+  font-size: 0.9rem;
+  margin-left: 0.5rem;
+}
+
+.ccr-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list-view-interest span {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0 0.3rem;
+}
